@@ -147,3 +147,20 @@
   background: linear-gradient(90deg, #ffa500 0%, #ff7a00 100%);
   filter: blur(900px)
 }
+
+.arrow-down-1 {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #333; /* Change the color as needed */
+  cursor: pointer;
+}
+.arrow-down-2 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #333; /* Change the color as needed */
+  cursor: pointer;
+}

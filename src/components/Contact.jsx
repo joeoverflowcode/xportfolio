@@ -3,7 +3,7 @@ import styles from '../styles'
 
 const Contact = () => (
 
-<section className={`${styles.marginY} text-dimWhite`}>
+<section id='contact' className={`${styles.marginY} text-dimWhite`}>
 
 
     <div className='sm:m-auto sm:max-w-[1040px] p-4 '>
@@ -11,7 +11,7 @@ const Contact = () => (
 
 
 <div className={`${styles.heading2} text-dimWhite ${styles.flexCenter}`}>
-                <span className='bg-dimWhite border-1 p-1 rounded-[10px] text-[#1e1e1e] mr-1'>C</span>
+                <span className='bg-dimWhite border-1 p-1 rounded-[10px] text-[#1e1e1e] mr-1 hover:bg-white hover:drop-shadow-[10px_10px_35px_rgba(220,220,220,0.3)]'>C</span>
                 ontact
             </div>
 <form action='https://getform.io/f/ce200de9-c4ba-40ce-bf07-723f4335cf36' method='POST' encType='multipart/form-data' className='text-dimWhite'>
@@ -39,7 +39,7 @@ const Contact = () => (
         </div>
  
         <button className="w-full p-4 bg-gradient-to-b from-blue-900 to-gray-800 shadow-md
-                        text-white rounded-lg shadow-gray-800 cursor-pointer hover:scale-110 ease-in duration-300 md:text-xl lg:text-xl
+                        text-white rounded-lg shadow-gray-800 cursor-pointer md:text-xl lg:text-xl hover:scale-105 ease-in duration-300
                         " type='Submit'>Send Message</button>
     </form>
 

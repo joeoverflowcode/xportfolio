@@ -7,6 +7,7 @@ Hero,
 Footer,
 Skills,
 About,
+Projects,
 Contact } from "./components"
 
 const App = () => 
@@ -27,7 +28,7 @@ const App = () =>
 <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
 <div className={`${styles.boxWidth}`}>
   <About/>
-
+<Projects />
 <Skills />
 <Contact />
   <Footer /> 

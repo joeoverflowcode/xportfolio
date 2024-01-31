@@ -11,7 +11,7 @@ import ContactButton from './ContactButton'
 
 
 const Hero = () => (
-<section id='hero' className={`flex md:flex-row flex-col justify-between`}>
+<section id='home' className={`flex md:flex-row flex-col justify-between`}>
 
         <div className='absolute z[-10] w-[20%] h-[40%] rounded-full md:top-3/4 right-20 md:left-20 white__gradient'/>
         <div className='absolute z[-10] w-[20%] h-[20%] right-10 md:left-10 md:top-3/4 blue__gradient'/>
@@ -28,7 +28,7 @@ const Hero = () => (
             <img 
                 src={iphone} 
                 alt='iphone' 
-                className='transform md:-rotate-12 rotate-12 hover:rotate-6 hover:drop-shadow-[5px_5px_25px_rgba(220,220,220,0.3)]'/>
+                className='transform md:-rotate-12 rotate-12 hover:rotate-6 hover:drop-shadow-[10px_10px_35px_rgba(220,220,220,0.3)]'/>
 
         </div>
     </div>
@@ -49,7 +49,7 @@ const Hero = () => (
                     <img 
                         src={pencil} 
                         alt='pencil' 
-                        className='absolute top-10 -right-20 transform -rotate-45 hover:rotate-1 w-[60%]'/>
+                        className='absolute top-10 -right-20 transform -rotate-45 hover:-translate-x-5 w-[60%]'/>
                 </div>
                 <div>
                 <img 
