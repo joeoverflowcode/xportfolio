@@ -33,7 +33,7 @@ const Hero = () => (
         </div>
     </div>
 
-    <div className={`flex-col ${styles.flexCenter}`}>
+    <div className={`flex flex-col ${styles.flexCenter}`}>
                 <img 
             src={hero1024} 
             alt='tornPhoto' 
