@@ -1,16 +1,26 @@
 import React from 'react'
 import styles from '../styles'
+import Button from './Button'
 
     function Project({href, source, alt, title, date}) {
         return  (
             <div className='text-dimWhite'>
 
-                <div className='flex flex-col items-center text-center p-4 hover:text-white hover:drop-shadow-[15px_15px_40px_rgba(220,220,220,0.3)]'>
+                <div className='flex flex-col items-center text-center p-2 hover:text-white hover:drop-shadow-[15px_15px_40px_rgba(220,220,220,0.3)]'>
                     
                     <h2 className='text-2xl sm:text-2xl md:text-3xl font-bold flex '>{title}</h2>  
                     <h3 className='text-xl sm:text-xl md:text-2xl pl-2'>{date}</h3> 
-
                 </div>
+
+                    <div className='flex justify-center'>
+                        <ul className='mb-2'>
+                            <li className=''>
+                                <a href='#' className='underline'> Demo</a> |
+                                <a href='#' className='underline pl-2'>Walkthrough</a>
+                            </li>
+                        </ul>
+                    </div>
+
 
 
 
