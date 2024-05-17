@@ -16,7 +16,8 @@ const Hero = () => (
         <div className='absolute z[-10] w-[20%] h-[40%] rounded-full md:top-3/4 right-20 md:left-20 white__gradient'/>
         <div className='absolute z[-10] w-[20%] h-[20%] right-10 md:left-10 md:top-3/4 blue__gradient'/>
     <div className={`flex-row md:flex-col ${styles.flexCenter} ${styles.paddingY} justify-between`}>
-        <div className='flex'>
+        <div className='flex text-emerald-50'>
+            hello world
             <img 
                 src={coffee} 
                 alt='coffee' 
